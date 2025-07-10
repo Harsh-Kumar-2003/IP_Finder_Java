@@ -92,8 +92,8 @@ public class ipfinder extends javax.swing.JFrame {
             InetAddress ia = InetAddress.getByName(url);
             String ip = ia.getHostAddress();
             JOptionPane.showMessageDialog(this, ip);
-        }catch(Exception ex){
-            JOptionPane.showMessageDialog(this, ex.toString());
+        }catch(Exception exc){
+            JOptionPane.showMessageDialog(this, exc.toString());
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

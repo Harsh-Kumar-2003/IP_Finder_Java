@@ -7,7 +7,7 @@ import java.net.*;
 import javax.swing.JOptionPane;
 /**
  *
- * @author harsh
+ * @author harsh kumar @21503
  */
 public class ipfinder extends javax.swing.JFrame {
     
